@@ -1,7 +1,7 @@
 <h1 align="center"> Star Gazers </h1>
 
 <p align="center">
-    <img src="./resources/Logo.jpg" width="300px"/>
+    <img src="./resources/Logo.jpg" width="500px"/>
 </p>
 
 <br>
@@ -18,13 +18,13 @@ This is our quiz game from which you can learn some interesting facts about Spac
 <p align="left">
     <a href="https://visualstudio.microsoft.com/vs/"><img src="./resources/visual-studio.png" alt="Visual Studio 2022 logo" width="44px" /></a>
     <a href="https://github.com/"><img src="./resources/git-hub.png" alt="GitHub logo" width="44px" /></a>
-    <a href="https://microsoft.com/bg-bg/microsoft-teams/log-in"><img src="./resources/teams.png" alt="Microsoft Teams logo" width="65px" /></a>
+    <a href="https://microsoft.com/bg-bg/microsoft-teams/log-in"><img src="./resources/teams.png" alt="Microsoft Teams logo" width="95px" /></a>
 </p>
 
 ### Documentation
 <p align="left">
     <a href="https://www.microsoft.com/en-ww/microsoft-365/word"><img src="./resources/word.png" alt="MS Word logo" width="48px" /></a>
-    <a href="https://www.microsoft.com/en-us/microsoft-365/powerpoint"><img src="./resources/power-point.png" alt="MS PowerPoint logo" width="60px" /></a>
+    <a href="https://www.microsoft.com/en-us/microsoft-365/powerpoint"><img src="./resources/power-point.png" alt="MS PowerPoint logo" width="80px" /></a>
 </p>
 
 <hr> 
