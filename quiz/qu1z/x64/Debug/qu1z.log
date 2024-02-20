@@ -24,4 +24,4 @@ raylib.lib(egl_context.c.obj) : warning LNK4099: PDB '' was not found with 'rayl
 raylib.lib(osmesa_context.c.obj) : warning LNK4099: PDB '' was not found with 'raylib.lib(osmesa_context.c.obj)' or at ''; linking object as if no debug info
 raylib.lib(win32_module.c.obj) : warning LNK4099: PDB '' was not found with 'raylib.lib(win32_module.c.obj)' or at ''; linking object as if no debug info
 raylib.lib(win32_joystick.c.obj) : warning LNK4099: PDB '' was not found with 'raylib.lib(win32_joystick.c.obj)' or at ''; linking object as if no debug info
-  qu1z.vcxproj -> C:\Users\krist\Desktop\novo\2324-space-sprint-project-star-gazers\quiz\x64\Debug\QuizGame.exe
+  qu1z.vcxproj -> C:\Users\VTVaradeva22\Documents\2324-space-sprint-project-star-gazers\quiz\x64\Debug\QuizGame.exe
