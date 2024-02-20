@@ -18,7 +18,7 @@ This is our quiz game from which you can learn some interesting facts about Spac
 <p align="left">
     <a href="https://visualstudio.microsoft.com/vs/"><img src="./resources/visual-studio.png" alt="Visual Studio 2022 logo" width="44px" /></a>
     <a href="https://github.com/"><img src="./resources/git-hub.png" alt="GitHub logo" width="44px" /></a>
-    <a href="https://microsoft.com/bg-bg/microsoft-teams/log-in"><img src="./resources/teams.png" alt="Microsoft Teams logo" width="95px" /></a>
+    <a href="https://microsoft.com/bg-bg/microsoft-teams/log-in"><img src="./resources/ms-teams.png" alt="Microsoft Teams logo" width="80px" /></a>
 </p>
 
 ### Documentation
