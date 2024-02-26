@@ -19,13 +19,17 @@ This is our quiz game from which you can learn some interesting facts about Spac
     <a href="https://visualstudio.microsoft.com/vs/"><img src="./resources/visual-studio.png" alt="Visual Studio 2022 logo" width="44px" /></a>
     <a href="https://github.com/"><img src="./resources/git-hub.png" alt="GitHub logo" width="44px" /></a>
     <a href="https://microsoft.com/bg-bg/microsoft-teams/log-in"><img src="./resources/ms-teams.png" alt="Microsoft Teams logo" width="80px" /></a>
-</p>
-
-### Documentation
-<p align="left">
     <a href="https://www.microsoft.com/en-ww/microsoft-365/word"><img src="./resources/word.png" alt="MS Word logo" width="48px" /></a>
     <a href="https://www.microsoft.com/en-us/microsoft-365/powerpoint"><img src="./resources/power-point.png" alt="MS PowerPoint logo" width="80px" /></a>
 </p>
+
+## 📄 Documents
+
+### Documentation
+[Documentation](./doc/Team%20STAR%20GAZERS.docx)
+
+### Presenting
+[Presentation](./doc/Star%20Gazers.pptx)
 
 <hr> 
 
