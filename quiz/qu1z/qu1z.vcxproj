@@ -134,6 +134,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="menu.cpp" />
     <ClCompile Include="qu1z.cpp" />
+    <ClCompile Include="rules.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="menu.h" />

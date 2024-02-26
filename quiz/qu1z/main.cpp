@@ -1,5 +1,5 @@
-#include "quiz.h"
+#include "menu.h"
 
 int main() {
-	quiz();
+	menu();
 }

@@ -2,8 +2,8 @@
 #include "quiz.h" // Include header file for quiz functions
 
 void menu() {
-	const int screenWidth = 1920; // Define screen width
-	const int screenHeight = 975;
+	const int screenWidth = 1000; // Define screen width
+	const int screenHeight = 700;
 
 	InitWindow(screenWidth, screenHeight, "Star Gazers Quiz");
 

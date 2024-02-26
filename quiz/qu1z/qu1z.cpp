@@ -72,9 +72,6 @@ void quiz() {
     // Define screen dimensions
     const int screenWidth = 800;
     const int screenHeight = 450;
-  
-    // Initialize the window for displaying the quiz
-    InitWindow(screenWidth, screenHeight, "Star Gazers Quiz");
 
     int currentQuestion = 0;
     int selectedOption = -1;
