@@ -1,11 +1,13 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (qu1z.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   main.cpp
+  menu.cpp
   qu1z.cpp
   Generating Code...
+  LINK : C:\Users\GSDimitrov22\Documents\2324-space-sprint-project-star-gazers\quiz\x64\Debug\QuizGame.exe not found or not built by the last incremental link; performing full link
 raylib.lib(rcore.c.obj) : warning LNK4099: PDB '' was not found with 'raylib.lib(rcore.c.obj)' or at ''; linking object as if no debug info
+raylib.lib(rshapes.c.obj) : warning LNK4099: PDB '' was not found with 'raylib.lib(rshapes.c.obj)' or at ''; linking object as if no debug info
 raylib.lib(rtext.c.obj) : warning LNK4099: PDB '' was not found with 'raylib.lib(rtext.c.obj)' or at ''; linking object as if no debug info
 raylib.lib(utils.c.obj) : warning LNK4099: PDB '' was not found with 'raylib.lib(utils.c.obj)' or at ''; linking object as if no debug info
-raylib.lib(rshapes.c.obj) : warning LNK4099: PDB '' was not found with 'raylib.lib(rshapes.c.obj)' or at ''; linking object as if no debug info
 raylib.lib(rtextures.c.obj) : warning LNK4099: PDB '' was not found with 'raylib.lib(rtextures.c.obj)' or at ''; linking object as if no debug info
 raylib.lib(init.c.obj) : warning LNK4099: PDB '' was not found with 'raylib.lib(init.c.obj)' or at ''; linking object as if no debug info
 raylib.lib(monitor.c.obj) : warning LNK4099: PDB '' was not found with 'raylib.lib(monitor.c.obj)' or at ''; linking object as if no debug info
@@ -24,4 +26,4 @@ raylib.lib(egl_context.c.obj) : warning LNK4099: PDB '' was not found with 'rayl
 raylib.lib(osmesa_context.c.obj) : warning LNK4099: PDB '' was not found with 'raylib.lib(osmesa_context.c.obj)' or at ''; linking object as if no debug info
 raylib.lib(win32_module.c.obj) : warning LNK4099: PDB '' was not found with 'raylib.lib(win32_module.c.obj)' or at ''; linking object as if no debug info
 raylib.lib(win32_joystick.c.obj) : warning LNK4099: PDB '' was not found with 'raylib.lib(win32_joystick.c.obj)' or at ''; linking object as if no debug info
-  qu1z.vcxproj -> C:\Users\VTVaradeva22\Documents\2324-space-sprint-project-star-gazers\quiz\x64\Debug\QuizGame.exe
+  qu1z.vcxproj -> C:\Users\GSDimitrov22\Documents\2324-space-sprint-project-star-gazers\quiz\x64\Debug\QuizGame.exe
