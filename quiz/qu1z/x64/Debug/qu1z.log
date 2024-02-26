@@ -1,7 +1,2 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (qu1z.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  main.cpp
-  menu.cpp
-  qu1z.cpp
-  rules.cpp
-  Generating Code...
-C:\Users\ivans\OneDrive\Работен плот\star gazers\2324-space-sprint-project-star-gazers\quiz\qu1z\rules.cpp(19,26): error C2065: 'KEY_ANY': undeclared identifier
+  qu1z.vcxproj -> C:\Users\krist\Desktop\posledno\2324-space-sprint-project-star-gazers\quiz\x64\Debug\QuizGame.exe

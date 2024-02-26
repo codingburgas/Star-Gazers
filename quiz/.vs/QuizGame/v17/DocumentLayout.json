@@ -1,33 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\krist\\Desktop\\New folder (2)\\2324-space-sprint-project-star-gazers\\quiz\\",
+  "WorkspaceRootPath": "C:\\Users\\krist\\Desktop\\posledno\\2324-space-sprint-project-star-gazers\\quiz\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FD40AEB5-6F31-453A-BF9D-B09819CCA3D4}|qu1z\\qu1z.vcxproj|C:\\Users\\krist\\Desktop\\New folder (2)\\2324-space-sprint-project-star-gazers\\quiz\\qu1z\\rules.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FD40AEB5-6F31-453A-BF9D-B09819CCA3D4}|qu1z\\qu1z.vcxproj|solutionrelative:qu1z\\rules.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD40AEB5-6F31-453A-BF9D-B09819CCA3D4}|qu1z\\qu1z.vcxproj|C:\\Users\\krist\\Desktop\\New folder (2)\\2324-space-sprint-project-star-gazers\\quiz\\qu1z\\menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FD40AEB5-6F31-453A-BF9D-B09819CCA3D4}|qu1z\\qu1z.vcxproj|solutionrelative:qu1z\\menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD40AEB5-6F31-453A-BF9D-B09819CCA3D4}|qu1z\\qu1z.vcxproj|C:\\Users\\krist\\Desktop\\New folder (2)\\2324-space-sprint-project-star-gazers\\quiz\\qu1z\\menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FD40AEB5-6F31-453A-BF9D-B09819CCA3D4}|qu1z\\qu1z.vcxproj|solutionrelative:qu1z\\menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD40AEB5-6F31-453A-BF9D-B09819CCA3D4}|qu1z\\qu1z.vcxproj|C:\\Users\\krist\\Desktop\\New folder (2)\\2324-space-sprint-project-star-gazers\\quiz\\qu1z\\qu1z.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{FD40AEB5-6F31-453A-BF9D-B09819CCA3D4}|qu1z\\qu1z.vcxproj|C:\\Users\\krist\\Desktop\\posledno\\2324-space-sprint-project-star-gazers\\quiz\\qu1z\\qu1z.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FD40AEB5-6F31-453A-BF9D-B09819CCA3D4}|qu1z\\qu1z.vcxproj|solutionrelative:qu1z\\qu1z.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD40AEB5-6F31-453A-BF9D-B09819CCA3D4}|qu1z\\qu1z.vcxproj|C:\\Users\\krist\\Desktop\\New folder (2)\\2324-space-sprint-project-star-gazers\\quiz\\qu1z\\quiz.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{FD40AEB5-6F31-453A-BF9D-B09819CCA3D4}|qu1z\\qu1z.vcxproj|C:\\Users\\krist\\Desktop\\posledno\\2324-space-sprint-project-star-gazers\\quiz\\qu1z\\rules.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FD40AEB5-6F31-453A-BF9D-B09819CCA3D4}|qu1z\\qu1z.vcxproj|solutionrelative:qu1z\\rules.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD40AEB5-6F31-453A-BF9D-B09819CCA3D4}|qu1z\\qu1z.vcxproj|C:\\Users\\krist\\Desktop\\posledno\\2324-space-sprint-project-star-gazers\\quiz\\qu1z\\menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FD40AEB5-6F31-453A-BF9D-B09819CCA3D4}|qu1z\\qu1z.vcxproj|solutionrelative:qu1z\\menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD40AEB5-6F31-453A-BF9D-B09819CCA3D4}|qu1z\\qu1z.vcxproj|C:\\Users\\krist\\Desktop\\posledno\\2324-space-sprint-project-star-gazers\\quiz\\qu1z\\menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FD40AEB5-6F31-453A-BF9D-B09819CCA3D4}|qu1z\\qu1z.vcxproj|solutionrelative:qu1z\\menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD40AEB5-6F31-453A-BF9D-B09819CCA3D4}|qu1z\\qu1z.vcxproj|C:\\Users\\krist\\Desktop\\posledno\\2324-space-sprint-project-star-gazers\\quiz\\qu1z\\quiz.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FD40AEB5-6F31-453A-BF9D-B09819CCA3D4}|qu1z\\qu1z.vcxproj|solutionrelative:qu1z\\quiz.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD40AEB5-6F31-453A-BF9D-B09819CCA3D4}|qu1z\\qu1z.vcxproj|C:\\Users\\krist\\Desktop\\New folder (2)\\2324-space-sprint-project-star-gazers\\quiz\\qu1z\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{FD40AEB5-6F31-453A-BF9D-B09819CCA3D4}|qu1z\\qu1z.vcxproj|C:\\Users\\krist\\Desktop\\posledno\\2324-space-sprint-project-star-gazers\\quiz\\qu1z\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FD40AEB5-6F31-453A-BF9D-B09819CCA3D4}|qu1z\\qu1z.vcxproj|solutionrelative:qu1z\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD40AEB5-6F31-453A-BF9D-B09819CCA3D4}|qu1z\\qu1z.vcxproj|C:\\Users\\krist\\Desktop\\New folder (2)\\2324-space-sprint-project-star-gazers\\quiz\\qu1z\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{FD40AEB5-6F31-453A-BF9D-B09819CCA3D4}|qu1z\\qu1z.vcxproj|C:\\Users\\krist\\Desktop\\posledno\\2324-space-sprint-project-star-gazers\\quiz\\qu1z\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FD40AEB5-6F31-453A-BF9D-B09819CCA3D4}|qu1z\\qu1z.vcxproj|solutionrelative:qu1z\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -38,54 +38,51 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "rules.cpp",
-              "DocumentMoniker": "C:\\Users\\krist\\Desktop\\New folder (2)\\2324-space-sprint-project-star-gazers\\quiz\\qu1z\\rules.cpp",
-              "RelativeDocumentMoniker": "qu1z\\rules.cpp",
-              "ToolTip": "C:\\Users\\krist\\Desktop\\New folder (2)\\2324-space-sprint-project-star-gazers\\quiz\\qu1z\\rules.cpp",
-              "RelativeToolTip": "qu1z\\rules.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEoAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-02-26T15:55:25.53Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "menu.h",
-              "DocumentMoniker": "C:\\Users\\krist\\Desktop\\New folder (2)\\2324-space-sprint-project-star-gazers\\quiz\\qu1z\\menu.h",
-              "RelativeDocumentMoniker": "qu1z\\menu.h",
-              "ToolTip": "C:\\Users\\krist\\Desktop\\New folder (2)\\2324-space-sprint-project-star-gazers\\quiz\\qu1z\\menu.h",
-              "RelativeToolTip": "qu1z\\menu.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-02-21T16:30:37.428Z",
-              "EditorCaption": ""
+              "Title": "rules.cpp",
+              "DocumentMoniker": "C:\\Users\\krist\\Desktop\\posledno\\2324-space-sprint-project-star-gazers\\quiz\\qu1z\\rules.cpp",
+              "RelativeDocumentMoniker": "qu1z\\rules.cpp",
+              "ToolTip": "C:\\Users\\krist\\Desktop\\posledno\\2324-space-sprint-project-star-gazers\\quiz\\qu1z\\rules.cpp",
+              "RelativeToolTip": "qu1z\\rules.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-26T15:55:25.53Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "menu.h",
+              "DocumentMoniker": "C:\\Users\\krist\\Desktop\\posledno\\2324-space-sprint-project-star-gazers\\quiz\\qu1z\\menu.h",
+              "RelativeDocumentMoniker": "qu1z\\menu.h",
+              "ToolTip": "C:\\Users\\krist\\Desktop\\posledno\\2324-space-sprint-project-star-gazers\\quiz\\qu1z\\menu.h",
+              "RelativeToolTip": "qu1z\\menu.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-02-21T16:30:37.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "menu.cpp",
-              "DocumentMoniker": "C:\\Users\\krist\\Desktop\\New folder (2)\\2324-space-sprint-project-star-gazers\\quiz\\qu1z\\menu.cpp",
+              "DocumentMoniker": "C:\\Users\\krist\\Desktop\\posledno\\2324-space-sprint-project-star-gazers\\quiz\\qu1z\\menu.cpp",
               "RelativeDocumentMoniker": "qu1z\\menu.cpp",
-              "ToolTip": "C:\\Users\\krist\\Desktop\\New folder (2)\\2324-space-sprint-project-star-gazers\\quiz\\qu1z\\menu.cpp",
+              "ToolTip": "C:\\Users\\krist\\Desktop\\posledno\\2324-space-sprint-project-star-gazers\\quiz\\qu1z\\menu.cpp",
               "RelativeToolTip": "qu1z\\menu.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-02-21T16:30:01.105Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-21T16:30:01.105Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "quiz.h",
-              "DocumentMoniker": "C:\\Users\\krist\\Desktop\\New folder (2)\\2324-space-sprint-project-star-gazers\\quiz\\qu1z\\quiz.h",
+              "DocumentMoniker": "C:\\Users\\krist\\Desktop\\posledno\\2324-space-sprint-project-star-gazers\\quiz\\qu1z\\quiz.h",
               "RelativeDocumentMoniker": "qu1z\\quiz.h",
-              "ToolTip": "C:\\Users\\krist\\Desktop\\New folder (2)\\2324-space-sprint-project-star-gazers\\quiz\\qu1z\\quiz.h",
+              "ToolTip": "C:\\Users\\krist\\Desktop\\posledno\\2324-space-sprint-project-star-gazers\\quiz\\qu1z\\quiz.h",
               "RelativeToolTip": "qu1z\\quiz.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -93,23 +90,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "qu1z.cpp",
-              "DocumentMoniker": "C:\\Users\\krist\\Desktop\\New folder (2)\\2324-space-sprint-project-star-gazers\\quiz\\qu1z\\qu1z.cpp",
+              "DocumentMoniker": "C:\\Users\\krist\\Desktop\\posledno\\2324-space-sprint-project-star-gazers\\quiz\\qu1z\\qu1z.cpp",
               "RelativeDocumentMoniker": "qu1z\\qu1z.cpp",
-              "ToolTip": "C:\\Users\\krist\\Desktop\\New folder (2)\\2324-space-sprint-project-star-gazers\\quiz\\qu1z\\qu1z.cpp",
+              "ToolTip": "C:\\Users\\krist\\Desktop\\posledno\\2324-space-sprint-project-star-gazers\\quiz\\qu1z\\qu1z.cpp",
               "RelativeToolTip": "qu1z\\qu1z.cpp",
-              "ViewState": "AQIAADwAAAAAAAAAAAAAAGUAAAANAAAA",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAEIAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-02-12T16:21:59.931Z"
+              "WhenOpened": "2024-02-12T16:21:59.931Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\krist\\Desktop\\New folder (2)\\2324-space-sprint-project-star-gazers\\quiz\\qu1z\\main.cpp",
+              "DocumentMoniker": "C:\\Users\\krist\\Desktop\\posledno\\2324-space-sprint-project-star-gazers\\quiz\\qu1z\\main.cpp",
               "RelativeDocumentMoniker": "qu1z\\main.cpp",
-              "ToolTip": "C:\\Users\\krist\\Desktop\\New folder (2)\\2324-space-sprint-project-star-gazers\\quiz\\qu1z\\main.cpp",
+              "ToolTip": "C:\\Users\\krist\\Desktop\\posledno\\2324-space-sprint-project-star-gazers\\quiz\\qu1z\\main.cpp",
               "RelativeToolTip": "qu1z\\main.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -119,9 +117,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "pch.h",
-              "DocumentMoniker": "C:\\Users\\krist\\Desktop\\New folder (2)\\2324-space-sprint-project-star-gazers\\quiz\\qu1z\\pch.h",
+              "DocumentMoniker": "C:\\Users\\krist\\Desktop\\posledno\\2324-space-sprint-project-star-gazers\\quiz\\qu1z\\pch.h",
               "RelativeDocumentMoniker": "qu1z\\pch.h",
-              "ToolTip": "C:\\Users\\krist\\Desktop\\New folder (2)\\2324-space-sprint-project-star-gazers\\quiz\\qu1z\\pch.h",
+              "ToolTip": "C:\\Users\\krist\\Desktop\\posledno\\2324-space-sprint-project-star-gazers\\quiz\\qu1z\\pch.h",
               "RelativeToolTip": "qu1z\\pch.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
