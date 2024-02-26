@@ -8,7 +8,7 @@
 
 ## 🖥️ About
 <p align="center">
-This is our quiz game from which you can learn some interesting facts about Space. Here you're going to be asked simple quiestions about our Solar system and in the end of the quiz you can see your score. 
+Welcome to our exciting quiz game all about space! Get ready to journey through our solar system and uncover some awesome facts. Answer some fun and easy questions, and see how well you do at the end. Let's blast off into the cosmos together!  
 </p>
 
 <hr> 
@@ -34,10 +34,12 @@ This is our quiz game from which you can learn some interesting facts about Spac
 <hr> 
 
 ## 📋 Team Members
-* **Veselina Varadeva** - Front-end developer
-* **Gabriela Encheva** - Scrum Trainer
-* **Georgi Dimitrov** - Front-end developer
-* **Kristiyana Hristova** - Back-end developer
+| Name                                                   | Role                | Class |
+|--------------------------------------------------------|---------------------|-------|
+| [Veselina Varadeva](https://github.com/VTVaradeva22)   | Front end Developer | 🟩9V   |
+| [Gabriela Encheva](https://github.com/GVEncheva22)   | Scrum trainer         | 🟩9V   |
+| [Georgi Dimitrov](https://github.com/GSDimitrov22)     | Front end Developer | 🟩9V   |
+| [Kristiyana Hristova](https://github.com/KIHristova22) | Back end Developer  | 🟩9V   |
 
 <hr>
 
