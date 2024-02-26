@@ -3,7 +3,7 @@
   menu.cpp
   qu1z.cpp
   Generating Code...
-  LINK : C:\Users\GSDimitrov22\Documents\2324-space-sprint-project-star-gazers\quiz\x64\Debug\QuizGame.exe not found or not built by the last incremental link; performing full link
+  LINK : C:\Users\VTVaradeva22\Documents\2324-space-sprint-project-star-gazers\quiz\x64\Debug\QuizGame.exe not found or not built by the last incremental link; performing full link
 raylib.lib(rcore.c.obj) : warning LNK4099: PDB '' was not found with 'raylib.lib(rcore.c.obj)' or at ''; linking object as if no debug info
 raylib.lib(rshapes.c.obj) : warning LNK4099: PDB '' was not found with 'raylib.lib(rshapes.c.obj)' or at ''; linking object as if no debug info
 raylib.lib(rtext.c.obj) : warning LNK4099: PDB '' was not found with 'raylib.lib(rtext.c.obj)' or at ''; linking object as if no debug info
@@ -26,4 +26,4 @@ raylib.lib(egl_context.c.obj) : warning LNK4099: PDB '' was not found with 'rayl
 raylib.lib(osmesa_context.c.obj) : warning LNK4099: PDB '' was not found with 'raylib.lib(osmesa_context.c.obj)' or at ''; linking object as if no debug info
 raylib.lib(win32_module.c.obj) : warning LNK4099: PDB '' was not found with 'raylib.lib(win32_module.c.obj)' or at ''; linking object as if no debug info
 raylib.lib(win32_joystick.c.obj) : warning LNK4099: PDB '' was not found with 'raylib.lib(win32_joystick.c.obj)' or at ''; linking object as if no debug info
-  qu1z.vcxproj -> C:\Users\GSDimitrov22\Documents\2324-space-sprint-project-star-gazers\quiz\x64\Debug\QuizGame.exe
+  qu1z.vcxproj -> C:\Users\VTVaradeva22\Documents\2324-space-sprint-project-star-gazers\quiz\x64\Debug\QuizGame.exe

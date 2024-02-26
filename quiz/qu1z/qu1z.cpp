@@ -1,23 +1,26 @@
 #include "quiz.h"
 
+// Define constants for maximum number of questions and options
 #define MAXQUESTIONS 10
 #define MAXOPTIONS 4
 
 using namespace std;
 
+// Define a structure for each question, containing the question text, options, and correct option index
 struct Question {
     string question;
-    vector<string> options;
+    vector<string> options; // Array of options
     int correctOption;
 };
 
-
+// Function to check if mouse click occurred on an option
 bool CheckMouseClickOnOption(int optionIndex, int mouseY) {
+    // Check if the mouse is within the bounding box of the option and left mouse button is pressed
     return (GetMouseX() >= 100 && GetMouseX() <= 300 && GetMouseY() >= 150 + 30 * optionIndex && GetMouseY() <= 150 + 30 * optionIndex + 20 && IsMouseButtonPressed(MOUSE_LEFT_BUTTON));
 }
 
 void quiz() {
-
+    // Array of questions with their options and correct answers
     Question questions[MAXQUESTIONS] = {
     {"What is the closest star to Earth?",
      {"a) Alpha Centauri", "b) Proxima Centauri", "c) Betelgeuse", "d) The Sun (Correct Answer)"},
@@ -66,9 +69,11 @@ void quiz() {
      2}
     };
 
+    // Define screen dimensions
     const int screenWidth = 800;
     const int screenHeight = 450;
-
+  
+    // Initialize the window for displaying the quiz
     InitWindow(screenWidth, screenHeight, "Star Gazers Quiz");
 
     int currentQuestion = 0;
@@ -76,36 +81,44 @@ void quiz() {
     bool answered = false;
     int score = 0;
 
+    // Clear the console screen
     system("CLS");
 
+    // Main game loop
     while (!WindowShouldClose()) {
         // Update
         if (!answered) {
+            // Check if the mouse clicked on any option
             for (int i = 0; i < MAXOPTIONS; i++) {
                 if (CheckMouseClickOnOption(i, GetMouseY())) {
-                    selectedOption = i;
+                    selectedOption = i; // Update the selected option
                     break;
                 }
             }
-
+            // Check if an option is selected
             if (selectedOption >= 0) {
+                // If the selected option is correct, increment the score
                 if (selectedOption == questions[currentQuestion].correctOption) {
                     score++;
                 }
-                answered = true;
+                answered = true; // Mark the question as answered
             }
         }
 
         // Draw
         BeginDrawing();
-        ClearBackground(RAYWHITE);
+        ClearBackground(RAYWHITE); // Clear the screen
 
+        // Display the current question
         DrawText(questions[currentQuestion].question.c_str(), 100, 100, 20, BLACK);
+        // Display the options for the current question
         for (int i = 0; i < MAXOPTIONS; i++) {
             DrawText(questions[currentQuestion].options[i].c_str(), 100, 150 + 30 * i, 20, BLACK);
         }
 
+        // Display feedback for answered question
         if (answered) {
+            // If the selected option is correct, display "Correct!", otherwise display "Incorrect!"
             if (selectedOption == questions[currentQuestion].correctOption) {
                 DrawText("Correct!", 100, 400, 20, GREEN);
             }
@@ -114,21 +127,22 @@ void quiz() {
             }
         }
 
-        EndDrawing();
+        EndDrawing(); // End drawing frame
 
         // Reset if answer was given
         if (answered && IsKeyPressed(KEY_ENTER)) {
-            currentQuestion++;
-            selectedOption = -1;
-            answered = false;
+            currentQuestion++; // Move to the next question
+            selectedOption = -1; // Reset selected option
+            answered = false; // Reset answered flag
+            // If all questions have been answered, exit the loop
             if (currentQuestion >= MAXQUESTIONS) 
                 break; // Quiz finished
         }
     }
         // Display score
 
-    CloseWindow();
+    CloseWindow(); // Close the window
 
-    system("CLS");
+    system("CLS"); // Clear console screen
     cout << "Your score is: " << score << "/" << MAXQUESTIONS << endl;
 }
