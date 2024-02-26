@@ -1,5 +1,6 @@
 #include "menu.h" // Include header file for menu functions
 #include "quiz.h" // Include header file for quiz functions
+#include "rules.h" 
 
 void menu() {
 	const int screenWidth = 1000; // Define screen width
@@ -40,7 +41,7 @@ void menu() {
 		DrawText("Rules", screenWidth / 2 - 50, screenHeight / 2 - 65, 50, BLACK);
 
 		if (isMouseOverRules && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
-			;
+			rules();
 		}
 
 		// Draw exit button
