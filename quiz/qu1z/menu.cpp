@@ -5,6 +5,7 @@
 void menu() {
 	const int screenWidth = 1000; // Define screen width
 	const int screenHeight = 700; // Define screen height
+	
 	// Initialize window with a title
 	InitWindow(screenWidth, screenHeight, "Star Gazers Quiz");
 	// Initialize vector to store mouse position
@@ -16,13 +17,13 @@ void menu() {
 	
 	// Main loop for the menu
 	while (!WindowShouldClose()) {
-
+		
 		// Update mouse position
 		mousePosition = GetMousePosition();
 		// Begin drawing
 		BeginDrawing();
 		// Clear background
-		ClearBackground(RAYWHITE);
+		
 
 		// Draw start quiz button
 		bool isMouseOverStart = CheckCollisionPointRec(mousePosition, startQuizButton);
@@ -54,6 +55,7 @@ void menu() {
 			// Close the window
 			CloseWindow();
 		}
+		ClearBackground(WHITE);
 
 		// End drawing
 		EndDrawing();
