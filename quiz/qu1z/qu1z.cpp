@@ -6,6 +6,37 @@
 
 using namespace std;
 
+void gameWon() {
+    Rectangle playAgain = { GetScreenWidth() / 2 - 300, GetScreenHeight() / 2 + 300, 200, 100 };
+    Rectangle exit = { GetScreenWidth() / 2 + 300, GetScreenHeight() / 2 + 300, 200, 100 };
+
+    while (!WindowShouldClose) {
+        Vector2 mousePosition = GetMousePosition();
+        BeginDrawing();
+        ClearBackground(WHITE);
+        DrawText("Congratulations! You won the game! \n You can see your result after exiting the quiz.", GetScreenWidth() / 2 - 50, GetScreenHeight() / 2 - 250, 30, BLACK);
+        bool isMouseOverExit = CheckCollisionPointRec(mousePosition, exit);
+        DrawRectangleRec(exit, (isMouseOverExit ? SKYBLUE : BLUE));
+        DrawText("Exit", GetScreenWidth() / 2 + 330, GetScreenHeight() / 2 + 310, 25, BLACK);
+
+        // Check if exit button is clicked
+        if (isMouseOverExit && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
+            // Close the window
+            CloseWindow();
+        }
+        bool isMouseOverPlayAgain = CheckCollisionPointRec(mousePosition, playAgain);
+        DrawRectangleRec(playAgain, (isMouseOverPlayAgain ? SKYBLUE : BLUE));
+        DrawText("Play again", GetScreenWidth() / 2 - 270, GetScreenHeight() / 2 + 310, 25, BLACK);
+
+        // Check if start quiz button is clicked
+        if (isMouseOverPlayAgain && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
+            // Call quiz function to start the quiz
+            quiz();
+        }
+        EndDrawing();
+
+    }
+}
 // Define a structure for each question, containing the question text, options, and correct option index
 struct Question {
     string question;
@@ -127,8 +158,9 @@ void quiz() {
                 DrawText("Incorrect!", 100, 400, 20, RED);
             }
         }
+        
+         
 
-        EndDrawing(); // End drawing frame
 
         // Reset if answer was given
         if (answered && IsKeyPressed(KEY_ENTER)) {
@@ -136,15 +168,18 @@ void quiz() {
             currentQuestion++; // Move to the next question
             selectedOption = -1; // Reset selected option
             answered = false; // Reset answered flag
-
-            // If all questions have been answered, exit the loop
-            if (currentQuestion >= MAXQUESTIONS) 
-            {
-                break; // Quiz finished
-            }
+            
+            
+             /*If all questions have been answered, exit the loop*/
+           
+        }
+        if (currentQuestion >= MAXQUESTIONS)
+        {
+           break; // Quiz finished
+            gameWon();
         }
     }
-    
+    EndDrawing(); 
     // Display score
     system("CLS"); // Clear console screen
     cout << "Your score is: " << score << "/" << MAXQUESTIONS << endl;

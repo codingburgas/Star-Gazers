@@ -4,3 +4,5 @@
 void quiz();
 
 bool CheckMouseClickOnOption(int optionIndex, int mouseY);
+
+void gameWon();
