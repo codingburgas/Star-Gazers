@@ -1,12 +1,3 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (qu1z.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   qu1z.cpp
-C:\Users\Lenovo\Documents\Нова папка\Star-Gazers\quiz\qu1z\qu1z.cpp(10,50): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-C:\Users\Lenovo\Documents\Нова папка\Star-Gazers\quiz\qu1z\qu1z.cpp(10,50): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\Lenovo\Documents\Нова папка\Star-Gazers\quiz\qu1z\qu1z.cpp(10,79): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-C:\Users\Lenovo\Documents\Нова папка\Star-Gazers\quiz\qu1z\qu1z.cpp(10,79): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\Lenovo\Documents\Нова папка\Star-Gazers\quiz\qu1z\qu1z.cpp(11,45): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-C:\Users\Lenovo\Documents\Нова папка\Star-Gazers\quiz\qu1z\qu1z.cpp(11,45): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\Lenovo\Documents\Нова папка\Star-Gazers\quiz\qu1z\qu1z.cpp(11,74): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-C:\Users\Lenovo\Documents\Нова папка\Star-Gazers\quiz\qu1z\qu1z.cpp(11,74): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\Lenovo\Documents\Нова папка\Star-Gazers\quiz\qu1z\qu1z.cpp(13,12): warning C4551: function call missing argument list
-  qu1z.vcxproj -> C:\Users\Lenovo\Documents\Нова папка\Star-Gazers\quiz\x64\Debug\QuizGame.exe
+  qu1z.vcxproj -> C:\Users\ivans\OneDrive\Работен плот\New folder\Star-Gazers\quiz\x64\Debug\QuizGame.exe

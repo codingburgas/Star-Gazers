@@ -1,4 +1,5 @@
 #include "quiz.h"
+#include "menu.h"
 
 // Define constants for maximum number of questions and options
 #define MAXQUESTIONS 10
@@ -6,43 +7,13 @@
 
 using namespace std;
 
-void gameWon() {
-    Rectangle playAgain = { GetScreenWidth() / 2 - 300, GetScreenHeight() / 2 + 300, 200, 100 };
-    Rectangle exit = { GetScreenWidth() / 2 + 300, GetScreenHeight() / 2 + 300, 200, 100 };
-
-    while (!WindowShouldClose) {
-        Vector2 mousePosition = GetMousePosition();
-        BeginDrawing();
-        ClearBackground(WHITE);
-        DrawText("Congratulations! You won the game! \n You can see your result after exiting the quiz.", GetScreenWidth() / 2 - 50, GetScreenHeight() / 2 - 250, 30, BLACK);
-        bool isMouseOverExit = CheckCollisionPointRec(mousePosition, exit);
-        DrawRectangleRec(exit, (isMouseOverExit ? SKYBLUE : BLUE));
-        DrawText("Exit", GetScreenWidth() / 2 + 330, GetScreenHeight() / 2 + 310, 25, BLACK);
-
-        // Check if exit button is clicked
-        if (isMouseOverExit && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
-            // Close the window
-            CloseWindow();
-        }
-        bool isMouseOverPlayAgain = CheckCollisionPointRec(mousePosition, playAgain);
-        DrawRectangleRec(playAgain, (isMouseOverPlayAgain ? SKYBLUE : BLUE));
-        DrawText("Play again", GetScreenWidth() / 2 - 270, GetScreenHeight() / 2 + 310, 25, BLACK);
-
-        // Check if start quiz button is clicked
-        if (isMouseOverPlayAgain && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
-            // Call quiz function to start the quiz
-            quiz();
-        }
-        EndDrawing();
-
-    }
-}
 // Define a structure for each question, containing the question text, options, and correct option index
 struct Question {
     string question;
     vector<string> options; // Array of options
     int correctOption;
 };
+
 
 // Function to check if mouse click occurred on an option
 bool CheckMouseClickOnOption(int optionIndex, int mouseY) {
@@ -51,54 +22,53 @@ bool CheckMouseClickOnOption(int optionIndex, int mouseY) {
 }
 
 void quiz() {
-   
     // Array of questions with their options and correct answers
     Question questions[MAXQUESTIONS] = {
-    {"What is the closest star to Earth?",
-     {"a) Alpha Centauri", "b) Proxima Centauri", "c) Betelgeuse", "d) The Sun"},
-     3},
-    {"How many planets are there in our solar system?",
-     {"a) Six", "b) Nine", "c) Eight", "d) Ten"},
-     2},
-    {"What is the name of the largest planet in our solar system?",
-     {"a) Mars", "b) Jupiter", "c) Saturn", "d) Neptune"},
-     1},
-    {"What is the Great Red Spot on Jupiter?",
-     {"a) Volcano", "b) Giant Storm", "c) Desert", "d) Polar Ice Cap"},
-     1},
-    {"Which planet is known as the \"Red Planet\"?",
-     {"a) Venus", "b) Jupiter", "c) Mars", "d) Mercury"},
-     2},
-    {"What is a satellite, and how does it differ from a planet?",
-     {"a) A planet is a man-made object in orbit; a satellite is a natural celestial body.",
-      "b) A planet orbits a star; a satellite orbits a planet",
-      "c) A planet is a small celestial body; a satellite is a large celestial body.",
-      "d) A satellite orbits a star; a planet orbits another planet."},
-     1},
-    {"Can you name any two moons of Saturn?",
-     {"a) Europa and Ganymede",
-      "b) Titan and Enceladus",
-      "c) Io and Callisto",
-      "d) Triton and Charon"},
-     1},
-    {"What is a comet, and what is its composition?",
-     {"a) A rocky planet; composed of metals.",
-      "b) A celestial body with a tail; composed of ice, dust, and volatile gases",
-      "c) A type of asteroid; composed of solid rock.",
-      "d) A gas giant; composed mainly of hydrogen and helium."},
-     1},
-    {"How does the force of gravity influence objects in space?",
-     {"a) It repels objects away from each other.",
-      "b) It has no effect in space.",
-      "c) It attracts objects with mass towards each other",
-      "d) It creates magnetic fields."},
-     2},
-    {"What is the name of the galaxy that includes our solar system?",
-     {"a) Andromeda",
-      "b) Triangulum",
-      "c) The Milky Way",
-      "d) Sombrero"},
-     2}
+        {"What is the closest star to Earth?",
+         {"a) Alpha Centauri", "b) Proxima Centauri", "c) Betelgeuse", "d) The Sun"},
+         3},
+        {"How many planets are there in our solar system?",
+         {"a) Six", "b) Nine", "c) Eight", "d) Ten"},
+         2},
+        {"What is the name of the largest planet in our solar system?",
+         {"a) Mars", "b) Jupiter", "c) Saturn", "d) Neptune"},
+         1},
+        {"What is the Great Red Spot on Jupiter?",
+         {"a) Volcano", "b) Giant Storm", "c) Desert", "d) Polar Ice Cap"},
+         1},
+        {"Which planet is known as the \"Red Planet\"?",
+         {"a) Venus", "b) Jupiter", "c) Mars", "d) Mercury"},
+         2},
+        {"What is a satellite, and how does it differ from a planet?",
+         {"a) A planet is a man-made object in orbit; a satellite is a natural celestial body.",
+          "b) A planet orbits a star; a satellite orbits a planet",
+          "c) A planet is a small celestial body; a satellite is a large celestial body.",
+          "d) A satellite orbits a star; a planet orbits another planet."},
+         1},
+        {"Can you name any two moons of Saturn?",
+         {"a) Europa and Ganymede",
+          "b) Titan and Enceladus",
+          "c) Io and Callisto",
+          "d) Triton and Charon"},
+         1},
+        {"What is a comet, and what is its composition?",
+         {"a) A rocky planet; composed of metals.",
+          "b) A celestial body with a tail; composed of ice, dust, and volatile gases",
+          "c) A type of asteroid; composed of solid rock.",
+          "d) A gas giant; composed mainly of hydrogen and helium."},
+         1},
+        {"How does the force of gravity influence objects in space?",
+         {"a) It repels objects away from each other.",
+          "b) It has no effect in space.",
+          "c) It attracts objects with mass towards each other",
+          "d) It creates magnetic fields."},
+         2},
+        {"What is the name of the galaxy that includes our solar system?",
+         {"a) Andromeda",
+          "b) Triangulum",
+          "c) The Milky Way",
+          "d) Sombrero"},
+         2}
     };
 
     // Define screen dimensions
@@ -158,9 +128,8 @@ void quiz() {
                 DrawText("Incorrect!", 100, 400, 20, RED);
             }
         }
-        
-         
-
+       
+        EndDrawing(); // End drawing frame
 
         // Reset if answer was given
         if (answered && IsKeyPressed(KEY_ENTER)) {
@@ -168,19 +137,18 @@ void quiz() {
             currentQuestion++; // Move to the next question
             selectedOption = -1; // Reset selected option
             answered = false; // Reset answered flag
-            
-            
-             /*If all questions have been answered, exit the loop*/
-           
-        }
-        if (currentQuestion >= MAXQUESTIONS)
-        {
-           break; // Quiz finished
-            gameWon();
+
+            /*If all questions have been answered, exit the loop*/
+            if (currentQuestion >= MAXQUESTIONS)
+            {
+                break;// Quiz finished
+                menu();
+            }
         }
     }
-    EndDrawing(); 
+    
     // Display score
     system("CLS"); // Clear console screen
     cout << "Your score is: " << score << "/" << MAXQUESTIONS << endl;
 }
+
