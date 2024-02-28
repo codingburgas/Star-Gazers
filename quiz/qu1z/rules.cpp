@@ -4,15 +4,20 @@
 void rules() {
     // Define a rectangle representing the button to start the quiz
     Rectangle toGame = { GetScreenWidth() / 2 + 300, GetScreenHeight() / 2 + 250, 120, 50 };
+
     // Main loop for the rules screen
     while (!WindowShouldClose()) { // Continue running until the window is closed
+
         //Defines the key that makes the player leave the rules
         SetExitKey(KEY_ESCAPE);
+
         // Get the current mouse position
         Vector2 mousePosition = GetMousePosition();
         BeginDrawing();
+
         // Clear the background to white
         ClearBackground(WHITE);
+
         // Draw instruction text
         DrawText("press ESC to go back", GetScreenWidth() / 2 - 425, GetScreenHeight() / 2 + 275, 20, BLACK);
         DrawRectangleRec(toGame, (CheckCollisionPointRec(mousePosition, toGame) ? GREEN : LIME));
@@ -25,8 +30,11 @@ void rules() {
         DrawText("each question to proceed. Good luck!", 190, 340, 25, BLACK);
         DrawRectangleRec(toGame, (CheckCollisionPointRec(mousePosition, toGame) ? SKYBLUE : BLUE));
         EndDrawing();
+
         // Check if the left mouse button is pressed and if it's within the button area
         if (IsMouseButtonPressed(MOUSE_BUTTON_LEFT) && CheckCollisionPointRec(mousePosition, toGame))
+        {
             quiz(); // Call the quiz function
+        }
     }
 }

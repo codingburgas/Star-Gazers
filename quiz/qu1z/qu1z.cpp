@@ -84,6 +84,7 @@ void quiz() {
     SetExitKey(KEY_ESCAPE);
     // Main game loop
     while (!WindowShouldClose()) {
+
         // Update
         if (!answered) {
             // Check if the mouse clicked on any option
@@ -109,6 +110,7 @@ void quiz() {
 
         // Display the current question
         DrawText(questions[currentQuestion].question.c_str(), 100, 100, 20, BLACK);
+
         // Display the options for the current question
         for (int i = 0; i < MAXOPTIONS; i++) {
             DrawText(questions[currentQuestion].options[i].c_str(), 100, 150 + 30 * i, 20, BLACK);
@@ -116,6 +118,7 @@ void quiz() {
 
         // Display feedback for answered question
         if (answered) {
+
             // If the selected option is correct, display "Correct!", otherwise display "Incorrect!"
             if (selectedOption == questions[currentQuestion].correctOption) {
                 DrawText("Correct!", 100, 400, 20, GREEN);
@@ -129,18 +132,20 @@ void quiz() {
 
         // Reset if answer was given
         if (answered && IsKeyPressed(KEY_ENTER)) {
+
             currentQuestion++; // Move to the next question
             selectedOption = -1; // Reset selected option
             answered = false; // Reset answered flag
+
             // If all questions have been answered, exit the loop
             if (currentQuestion >= MAXQUESTIONS) 
+            {
                 break; // Quiz finished
+            }
         }
     }
-        // Display score
-
-   
-
+    
+    // Display score
     system("CLS"); // Clear console screen
     cout << "Your score is: " << score << "/" << MAXQUESTIONS << endl;
 }

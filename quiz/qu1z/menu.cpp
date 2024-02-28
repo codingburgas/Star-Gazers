@@ -8,6 +8,7 @@ void menu() {
 	
 	// Initialize window with a title
 	InitWindow(screenWidth, screenHeight, "Star Gazers Quiz");
+
 	// Initialize vector to store mouse position
 	Vector2 mousePosition = GetMousePosition();
 
@@ -20,10 +21,9 @@ void menu() {
 		
 		// Update mouse position
 		mousePosition = GetMousePosition();
+
 		// Begin drawing
 		BeginDrawing();
-		// Clear background
-		
 
 		// Draw start quiz button
 		bool isMouseOverStart = CheckCollisionPointRec(mousePosition, startQuizButton);
@@ -55,6 +55,7 @@ void menu() {
 			// Close the window
 			CloseWindow();
 		}
+
 		ClearBackground(WHITE);
 
 		// End drawing
