@@ -23,13 +23,13 @@ Welcome to our exciting quiz game all about space! Get ready to journey through 
     <a href="https://www.microsoft.com/en-us/microsoft-365/powerpoint"><img src="./resources/power-point.png" alt="MS PowerPoint logo" width="80px" /></a>
 </p>
 
-## 📄 Documents
+## Documents
 
-### Documentation
-[Documentation](./doc/Team%20STAR%20GAZERS.docx)
+### 📄 Documentation
+[Documentation](https://codingburgas-my.sharepoint.com/:w:/g/personal/gvencheva22_codingburgas_bg/ESK_3xO9fFJBry0ii5rKWz8BlGVQVoi6zbw4766Q6SNGVw?e=uhW2iO)
 
-### Presenting
-[Presentation](./doc/Star%20Gazers.pptx)
+### 🧑‍🏫 Presenting
+[Presentation](https://codingburgas-my.sharepoint.com/:p:/g/personal/gvencheva22_codingburgas_bg/EQjuxvQn1NdJvD8bHVVP-v4Bylar27UObUTLCHqp-3l2tA?e=mVHTr1)
 
 <hr> 
 
