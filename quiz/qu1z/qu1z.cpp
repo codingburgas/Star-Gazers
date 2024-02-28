@@ -20,6 +20,7 @@ bool CheckMouseClickOnOption(int optionIndex, int mouseY) {
 }
 
 void quiz() {
+   
     // Array of questions with their options and correct answers
     Question questions[MAXQUESTIONS] = {
     {"What is the closest star to Earth?",
@@ -80,7 +81,7 @@ void quiz() {
 
     // Clear the console screen
     system("CLS");
-
+    SetExitKey(KEY_ESCAPE);
     // Main game loop
     while (!WindowShouldClose()) {
         // Update
@@ -138,7 +139,7 @@ void quiz() {
     }
         // Display score
 
-    CloseWindow(); // Close the window
+   
 
     system("CLS"); // Clear console screen
     cout << "Your score is: " << score << "/" << MAXQUESTIONS << endl;

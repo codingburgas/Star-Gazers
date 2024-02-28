@@ -3,7 +3,7 @@
 
 void rules() {
     // Define a rectangle representing the button to start the quiz
-    Rectangle toGame = { GetScreenWidth() / 2 + 400, GetScreenHeight() / 2 + 400, 300, 200 };
+    Rectangle toGame = { GetScreenWidth() / 2 + 300, GetScreenHeight() / 2 + 250, 120, 50 };
     // Main loop for the rules screen
     while (!WindowShouldClose()) { // Continue running until the window is closed
         //Defines the key that makes the player leave the rules
@@ -23,7 +23,7 @@ void rules() {
         DrawText("fascinating facts! Click 'Start' to begin the quiz", 190, 270, 25, BLACK);
         DrawText("or 'Exit' if you'd like to leave. Press 'Enter' after", 190, 305, 25, BLACK);
         DrawText("each question to proceed. Good luck!", 190, 340, 25, BLACK);
-    
+        DrawRectangleRec(toGame, (CheckCollisionPointRec(mousePosition, toGame) ? SKYBLUE : BLUE));
         EndDrawing();
         // Check if the left mouse button is pressed and if it's within the button area
         if (IsMouseButtonPressed(MOUSE_BUTTON_LEFT) && CheckCollisionPointRec(mousePosition, toGame))
